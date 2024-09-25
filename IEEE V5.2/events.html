@@ -1,0 +1,268 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IEEE Shoolini University</title>
+  <link rel="stylesheet" href="style.css">  
+  <style>
+    .event-container {
+      background-color: #f2f2f2;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+    .event-container p {
+      text-align: justify;
+    }
+    .event-container h1 {
+      color: #006699;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .event-details {
+      display: flex;
+      justify-content: space-between;
+      flex: 1;
+    }
+    .event-info {
+      flex: 0.75;
+    }
+    .event-details img {
+      width: 200px;
+      height: auto;
+      cursor: pointer;
+    }
+    /* Enlarged image modal */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 9999;
+      padding-top: 50px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+    .modal-content {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 800px;
+    }
+    .modal-content img {
+      width: 100%;
+      height: auto;
+    }
+    /* Style the close button */
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      color: #ffffff;
+      font-size: 30px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    .close:hover {
+      color: #000000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header id="navbar">
+    <a href="home.html"><img src="is-logow.png" alt="IEEE Shoolini University"></a>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li>
+            <a href="leadership.html">Leadership</a>
+            <ul>
+              <li><a href="branchpatrons.html">Branch Patrons</a></li>
+              <li><a href="branchcounselors.html">Branch Counselors</a></li>
+              <li><a href="rdadvisors.html">R&D Advisors</a></li>
+              <li><a href="technicaladvisors.html">IT Advisors</a></li>
+            </ul>
+          </li>
+          <li><a href="branchchairs.html">Student leadership</a></li>
+          <li><a href="mentors.html">Coach</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+  </nav>
+  <button><a href="register.html" class="registerbutton">Join IEEE</a></button>
+</header>
+  
+  
+  <div class="content">
+    <div class="image-container">
+        <img src="events.jpg" alt="Contact IEEE Shoolini University">
+    </div>
+    <br>
+
+    <h1 style="text-align:left; color:#006699;">Upcoming Events</h1>
+
+    <div class="event-container">
+      <div class="section">
+        <div class="event-details">
+          <div class="event-info">
+            <h1>Placeholder Event</h1>
+            <p><strong>Date:</strong> June 1, 2024</p>
+            <p>Join us for an engaging expert lecture by Dr. John Doe, Chief Scientist at Tech Innovations Inc., as he explores the fascinating realm of "Next-Generation AI: Advancements 
+              and Challenges." Dr. Doe will delve into the latest breakthroughs in artificial intelligence research and discuss the potential implications for various industries.
+               Coordinated by Ms. Jane Smith, this event promises valuable insights into cutting-edge AI technologies and their real-world applications. Don't miss this
+               opportunity to expand your understanding of AI from a distinguished industry expert!</p>
+            </div>
+          <img src="user.jpg" class="event-img">
+        </div>
+      </div>
+    </div>
+
+   
+
+    <h1 style="text-align:left; color:#006699;">Past Events</h1>
+    <div class="event-container">
+      <div class="section">
+        <div class="event-details">
+          <div class="event-info">
+            <h1>Healthcare 4.0: Leveraging Data Analystics, Digital Sovereignty, Transformation, and Cybersecurity</h1>
+            <p><strong>Date:</strong> May 7, 2024</p>
+            <p>Join us for an expert lecture by Dr. Sanjay Misra, Senior Scientist at the Institute for Energy Technology in Viken, Norway, as he delves into the dynamic
+            landscape of Healthcare 4.0. Dr. Misra will explore the pivotal role of data analytics, digital sovereignty, transformation, and cybersecurity in
+            revolutionizing patient care and management. Coordinated by  Mr. Anitya Gupta (Chair IEEE), this event, titled "Healthcare 4.0:
+            Leveraging Data Analytics, Digital Sovereignty, Transformation, and Cybersecurity," promises valuable insights into the intersection of cutting-edge 
+            technology and healthcare delivery. Certificates will be provided to all participants, courtesy of the IEEE Student Branch at Shoolini 
+            University. Don't miss this opportunity to gain profound knowledge from a distinguished expert in the field!</p>
+            </div>
+          <img src="event_00001.jpg" class="event-img">
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="event-container">
+      <div class="section">
+        <div class="event-details">
+          <div class="event-info">
+            <h1>Expert Lecture On Towards Energy-Accuracy Tradeoff in Abuse Classification Based On Optium Parameter Selection</h1>
+            <p><strong>Date:</strong> April 23, 2024</p>
+            <p>Join us for an engaging expert lecture by Dr. Swati Agarwal, Co-founder of Geeky Controllers Private Limited, as she delves into the intriguing topic
+               of "GoFed: Towards Energy-Accuracy Tradeoff in Abuse Classification Based on Optimum Parameter Selection." Dr. Agarwal will share insights into striking
+                a balance between energy consumption and classification accuracy in abuse detection through optimum parameter selection. Coordinated by Ms. Raveena 
+                Sharma,  this event promises to shed light on innovative approaches to address crucial challenges in abuse 
+                classification. Don't miss this opportunity to gain valuable knowledge and perspectives from a distinguished industry leader!</p>
+            </div>
+          <img src="event_00002.jpg" class="event-img">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Enlarged image modal -->
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+  </div>
+
+  <footer>
+    <p class="lin" style="text-align: left;">IEEE Important Links</p>
+    <style>
+      .menu {
+          list-style-type: none;
+          padding: 0;
+          padding-left: 50px;
+      }
+      .lin{
+          padding-left: 200px;
+        }
+       .men{
+        list-style-type: none;
+          padding: 0;
+          padding-left: 375px;
+          margin-top: -129px;
+       } 
+       .menu li{
+        margin-bottom: 4px;
+       }
+       .men li{
+        margin-bottom: 4px;
+       }
+       .fram{
+        padding-left: 650px;
+       }
+       .loc{
+        padding-left: 629px;
+        margin-top: -175px;
+       }
+       .fol{
+        margin-top: -100px;
+       }
+  </style>
+  
+  <ul class="menu" style="text-align: left;">
+      <li><a href="register.html">Join IEEE</a></li>
+      <li><a href="https://www.ieee.org/membership/index.html">Membership</a></li>
+      <li><a href="https://www.ieee.org/conferences/index.html">Conferences</a></li>
+      <li><a href="https://www.ieee.org/publications/index.html">Publications</a></li>
+      <li><a href="https://www.ieee.org/about/contact.html">Contact and Support</a></li>
+      <!-- Additional List Items -->
+  </ul>
+  <ul class="men" style="text-align: left; ">
+      <li><a   href="https://students.ieee.org/events/student-branch-reporting-deadline/"  X>Student Branch Reporting</a></li>
+      <li><a href="https://www.ieee.org/communities/forms_petitions.html">IEEE Chapter Formation</a></li>
+      <li><a href="https://ias.ieee.org/member-development/society-chapter-awards/">IAS Awards</a></li>
+      <li><a href="https://corporate-awards.ieee.org/">Awards and Recognitions</a></li>
+      <li><a href="https://students.ieee.org/">Student Travel Grants</a></li>
+  </ul>
+  <P class="loc"> Our Location</P>
+  <div class="fram"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3424.7969499545693!2d77.11357209251588!3d30.864359421417007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f814c00000001%3A0xb710833c46c8ace6!2sShoolini%20Lifesciences%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1715094568387!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  
+  
+      <ul  class="social" align="left">
+        <a href="https://www.linkedin.com/school/shooliniuniversity/"><img src="social icon/linkedinw.png" alt="Social Icon" height="30px" width="auto" ></a>
+        <a href="#"><img src="social icon/youtubew.png" alt="Social" height="30px" width="auto" ></a>
+        <a href="https://chat.whatsapp.com/FKIAER3KDg5I6gJkBxPGBm"><img src="social icon/whatappw.png" alt="Social Icon" height="30px" width="auto" ></a>
+        <a href="https://twitter.com/ShooliniUniv"><img src="social icon/xw.png" alt="Social Icon" height="30px" width="auto" ></a>
+           </ul>
+           <br>
+           <br>
+           <br>
+      <p >&copy; 2024 IEEE Shoolini University - All rights reserved. A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. | <a href="sitecontributers.html">Site Contributers</a> | Contact: suieee@shooliniuniversity.com</p> 
+    </footer>
+  <script src="stickynav.js"></script>
+  
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    // Get the image inside the modal
+    var modalImg = document.getElementById('img01');
+  
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgs = document.getElementsByClassName('event-img');
+    for (var i = 0; i < imgs.length; i++) {
+      imgs[i].onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+      }
+    }
+  
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+  
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+  </script>
+  <script src="stickynav.js"></script>
+</body>
+</html>
